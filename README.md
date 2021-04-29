@@ -44,6 +44,11 @@ qDebug()<<spectrum.data；               //打印频谱数据，结构为QVector
  * 设置频谱分析的滤波窗函数，默认为高斯滤波  
   ```void setWindowFunction(WindowFunction type)```
     
+## 项目说明
+项目文件为SpecEngine.pro  
+其中Demo文件夹下是可执行文件  
+代码中除main，ExampleWindow外均是引擎代码，其中ExampleWindow为代码示例窗口
+
 ## 关于SpecEngine
 SpecEngine 实现思路参考Qt官方Example——Spectrum，Italink(我)更换了音频采集模块，对频谱数据进行平滑处理，重新封装API，断断续续修改和优化了一年多，实时频谱效果可以说已经非常接近AE渲染的效果了，很多朋友都对这个代码特别感兴趣，因此花了几天把这部分代码剔出来重新封装，喜欢的朋友点个Star哦!
 
