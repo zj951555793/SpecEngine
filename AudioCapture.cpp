@@ -94,7 +94,6 @@ AudioCapture::AudioCapture(QObject *parent)
 AudioCapture::~AudioCapture()
 {
 
-
 }
 
 void AudioCapture::flushDevices()
@@ -125,7 +124,6 @@ void AudioCapture::flushDevices()
 //        inspect(pDevice->GetId(&pwszID));
 ////      devices.push_back({getDeviceName(pwszID),eCapture,pwszID});
 //    }
-
 
 }
 
