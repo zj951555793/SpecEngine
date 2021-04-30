@@ -9,7 +9,8 @@
 使用WASAPI采集Windows音频输出设备的音频数据，通过傅里叶运算得到频谱数据，这些数据可用于实现音乐可视化效果。
 
 ## 如何使用SpecEngine？
-
+* **头文件**  
+#include"SpecEngine.h"
 * **开启/关闭引擎**
 ```C++
 SpecEngine::getEngine->start();
